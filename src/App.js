@@ -1,4 +1,4 @@
-import ExpenseItem from "./components/ExpenseItem"
+import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
   return (
@@ -10,3 +10,4 @@ function App() {
 }
 
 export default App;
+
