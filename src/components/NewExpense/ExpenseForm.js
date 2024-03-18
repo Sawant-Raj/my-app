@@ -23,7 +23,7 @@ const ExpenseForm = (props) => {
 
     const expenseData = {
       title: enteredTitle,
-      amount: enteredAmount,
+      price: enteredAmount, //Here, amount was written in place of price which was wrong
       date: new Date(enteredDate),
     };
 
