@@ -1,7 +1,7 @@
 import "./ExpenseFilter.css";
 
 const ExpenseFilter = (props) => {
-  const dropDownChangeHandler = (event) => {
+  const dropDownChangeHandler = (event) => { //iske through pass ho rha h parent component me or neeche props.selected se get ho rha h parent se
     props.onChangeFilter(event.target.value);
   };
   return (

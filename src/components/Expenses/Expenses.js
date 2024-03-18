@@ -15,10 +15,10 @@ const Expenses = (props) => {
     <div>
       <Card className="expenses">
         <ExpenseFilter
-          selected={filtererYear}
+          selected={filtererYear} //isse state value wapis bhej di ExpenseFilter ko using props
           onChangeFilter={filterChangeHandler}
         />
-        {props.expenses.map((expense, index) => {
+        {props.expenses.map((expense) => {
           return (
             <ExpenseItem
               key={expense.id}
